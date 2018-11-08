@@ -7,7 +7,6 @@ import flask
 from flask import request
 
 import tensorflow as tf
-import tensorflow.keras as keras
 from tensorflow.keras.models import load_model, Model
 # #### initialize our Flask application and the Keras model
 
@@ -68,4 +67,4 @@ if __name__ == "__main__":
         "please wait until server has fully started"))
 
     load_mod()
-    app.run(debug=True)
+    app.run()

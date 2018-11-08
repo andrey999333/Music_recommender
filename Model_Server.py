@@ -17,7 +17,7 @@ app = flask.Flask(__name__)
 
 
 def load_mod():
-    # load the pre-trained Keras model and all
+    # load the pre-trained Keras model and all necessary additions to organize the data
     global graph,model,scaler_age,cat_dict,features
     graph = tf.get_default_graph()
     model = load_model('music_rec.hdf5')

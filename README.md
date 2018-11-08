@@ -14,9 +14,9 @@ The file that creates REST API to serve the model is [Model_Server.py](Model_Ser
 
 To test the server, you can use notebook [test_model_server_on_sample_data.ipynb](test_model_server_on_sample_data.ipynb). In this notebook the request is created to sent to the running server and get the response. Make sure the server is ready to receive requests before running the test.
 
-## Description of the files:
+## Description of the rest of the files:
 
-- All required python libraries in the file **requirements.txt** 
+- All required python libraries in the file **requirements.txt**
 - The trained model is in the file **music_rec.hdf5**
 - Scaler to scale one numerical data column **scaler.pkl**
 - ordered list of features **features.pkl**

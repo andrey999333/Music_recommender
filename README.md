@@ -1,6 +1,6 @@
 # Music Recommendation
 
-In this project I create and train the model for dataset https://www.kaggle.com/c/kkbox-music-recommendation-challenge/data. The aim is to predict if a user will listen a song for a second time within a month after the first time. Based on this information a recommendation system can be built.
+This is a training project and the main purpose is to get more experience in building deep learning models for structured data. Another objective is to create REST API with Flask to serve the model. In this project I create and train the model for dataset https://www.kaggle.com/c/kkbox-music-recommendation-challenge/data. The aim is to predict if a user will listen a song for a second time within a month after the first time. Based on this information a recommendation system can be built.
 
 ## Cleaning the data, creating and training the model
 
@@ -21,3 +21,4 @@ To test the server, you can use notebook [test_model_server_on_sample_data.ipynb
 - Scaler to scale one numerical data column **scaler.pkl**
 - ordered list of features **features.pkl**
 - Mapping of categorical features to categorical indexes **cat_map.pkl**
+- Two curls for testing the model in the file **curls.txt**

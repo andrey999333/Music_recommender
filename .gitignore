@@ -2,3 +2,4 @@ data/
 .ipynb_checkpoints/
 test_model_server.ipynb
 test_model_server_on_sample_data_curl.ipynb
+README.html

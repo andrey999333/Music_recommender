@@ -21,4 +21,4 @@ To test the server, you can use notebook [test_model_server_on_sample_data.ipynb
 - Scaler to scale one numerical data column **scaler.pkl**
 - ordered list of features **features.pkl**
 - Mapping of categorical features to categorical indexes **cat_map.pkl**
-- Two curls for testing the model in the file **curls.txt**
+- Two curls for testing the REST API in the file **curls.txt**
